@@ -1,4 +1,4 @@
-.form-admin {
+.form-ecc{
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -8,7 +8,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.form-admin input {
+.form-ecc input {
     margin: 4% 0%;
     padding: 5%;
     text-align: center;
@@ -16,12 +16,21 @@
     border-radius: 5px;
 }
 
-.form-admin input:focus {
+.form-ecc input:focus {
     outline: none;
     border-color: #8e44ad;
 }
 
-.form-admin-bt {
+.f-d{
+    display: flex;
+    flex-direction: row;
+}
+
+.f-d input{
+    margin-right: 10%;
+}
+
+.form-ecc-bt {
     margin: 4% 0%;
     padding: 5%;
     text-align: center;
@@ -33,7 +42,7 @@
     cursor: pointer;
 }
 
-.form-add-bt:hover {
+.form-ecc-bt:hover {
     background-color: black;
     color: antiquewhite;
 }
