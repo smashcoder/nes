@@ -2,6 +2,7 @@ import UserForm from './components/UserForm';
 import AdminForm from './components/AdminForm';
 import ECCForm from './components/ECCForm';
 import CSuiteForm from './components/CSuiteForm';
+import FoundersFusionForm from './components/FoundersFusionForm';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/*<UserForm/>*/}
       {/*<AdminForm/>*/}
       {/*<ECCForm/>*/}
-      <CSuiteForm/>
+      {/*<CSuiteForm/>*/}
+      <FoundersFusionForm/>
     </div>
   );
 }

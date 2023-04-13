@@ -1,0 +1,40 @@
+.form-ff{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 0px 100px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-ff input {
+    margin: 4% 0%;
+    padding: 5%;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-ff input:focus {
+    outline: none;
+    border-color: #8e44ad;
+}
+
+
+.form-ff-bt {
+    margin: 4% 0%;
+    padding: 5%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e44ad;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.form-ff-bt:hover {
+    background-color: black;
+    color: antiquewhite;
+}
