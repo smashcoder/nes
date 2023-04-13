@@ -1,0 +1,72 @@
+.lgpage{
+    width: 100%;
+    background-color: rgba(179, 255, 232, 0.173);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: rgb(10, 0, 26);
+    padding: 5% 10%;
+    border-radius: 5%;
+}
+
+.bx-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.bx-1 input{
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    text-align: center;
+    border: 3px double #ffffff;
+    border-radius: 10px;
+}
+
+.bx-1 input:focus{
+    outline: none;
+    border-color: rgb(1, 223, 200);
+}
+
+.bx-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4%;
+    width: 270px;
+}
+
+.fp{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.fp:hover{
+    color: aquamarine;
+}
+
+.login-bt{
+    padding: 3% 9%;
+    border: none;
+    background-color: rgb(196, 227, 0);
+    border-radius: 10px;
+}
+
+.login-bt:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+

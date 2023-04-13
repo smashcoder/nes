@@ -3,6 +3,7 @@ import AdminForm from './components/AdminForm';
 import ECCForm from './components/ECCForm';
 import CSuiteForm from './components/CSuiteForm';
 import FoundersFusionForm from './components/FoundersFusionForm';
+import LoginPage from './components/LoginPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/*<ECCForm/>*/}
       {/*<CSuiteForm/>*/}
       {/*<FoundersFusionForm/>*/}
+      <LoginPage/>
     </div>
   );
 }
