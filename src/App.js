@@ -11,7 +11,7 @@ function App() {
       {/*<AdminForm/>*/}
       {/*<ECCForm/>*/}
       {/*<CSuiteForm/>*/}
-      <FoundersFusionForm/>
+      {/*<FoundersFusionForm/>*/}
     </div>
   );
 }
