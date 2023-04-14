@@ -1,0 +1,35 @@
+.lpage{
+    width: 100%;
+    background-color: hwb(282 0% 78%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lpage h1{
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+}
+
+.thin-style{
+    font-weight: 100;
+}
+
+.bt-lp{
+    padding: 2% 5%;
+    font-size: 40px;
+    font-weight: 100;
+    border-radius: 10px;
+    background-color:yellow;
+    color:hwb(282 0% 78%);
+    border:none;
+    cursor:pointer;
+}
+
+.bt-lp:hover{
+    background-color: blueviolet;
+    color: yellow;
+}

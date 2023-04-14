@@ -1,10 +1,11 @@
-import UserForm from './components/UserForm';
+/*import UserForm from './components/UserForm';
 import AdminForm from './components/AdminForm';
 import ECCForm from './components/ECCForm';
 import CSuiteForm from './components/CSuiteForm';
 import FoundersFusionForm from './components/FoundersFusionForm';
 import LoginPage from './components/LoginPage';
-import RestPassword from './components/RestPassword';
+import RestPassword from './components/RestPassword';*/
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       {/*<CSuiteForm/>*/}
       {/*<FoundersFusionForm/>*/}
       {/*<LoginPage/>*/}
-      <RestPassword/>
+      {/*<RestPassword/>*/}
+      <LandingPage/>
+      
     </div>
   );
 }
