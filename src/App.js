@@ -4,8 +4,10 @@ import ECCForm from './components/ECCForm';
 import CSuiteForm from './components/CSuiteForm';
 import FoundersFusionForm from './components/FoundersFusionForm';
 import LoginPage from './components/LoginPage';
-import RestPassword from './components/RestPassword';*/
-import LandingPage from "./components/LandingPage";
+import RestPassword from './components/RestPassword';
+import LandingPage from "./components/LandingPage";*/
+
+import LoginPage from './components/LoginPage';
 
 function App() {
   return (
@@ -15,9 +17,10 @@ function App() {
       {/*<ECCForm/>*/}
       {/*<CSuiteForm/>*/}
       {/*<FoundersFusionForm/>*/}
-      {/*<LoginPage/>*/}
+      <LoginPage/>
       {/*<RestPassword/>*/}
-      <LandingPage/>
+      {/*<LandingPage/>*/}
+
       
     </div>
   );
